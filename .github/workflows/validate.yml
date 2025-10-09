@@ -15,4 +15,4 @@ jobs:
       - name: Checkout sources
         uses: actions/checkout@v5
 
-      - uses: priyagupta108/srcomp-validate-action@main
+      - uses: priyagupta108/srcomp-validate-action@test-action-361
