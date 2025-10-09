@@ -4,16 +4,15 @@ on:
   push:
     branches:
       - test-361
-#pull_request
+  pull_request:
   workflow_dispatch:
     
 
 jobs:
   validate:
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout sources
         uses: actions/checkout@v4
-      - run: cat requirements.txt
-      - uses: priya-kinthali/srcomp-validate-action@test-action-361
-      - run: cat requirements.txt
+
+      - uses: priyagupta108/srcomp-validate-action@test-action-361
