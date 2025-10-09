@@ -12,6 +12,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout sources
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
-      - uses: priyagupta108/srcomp-validate-action@test-action-361
+      - uses: priyagupta108/srcomp-validate-action@main
