@@ -3,7 +3,7 @@ name: Validate
 on:
   push:
     branches:
-      - test-361
+      - main
   pull_request:
   workflow_dispatch:
   
