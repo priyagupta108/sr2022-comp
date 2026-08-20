@@ -5,7 +5,6 @@ on:
     branches:
       - test-361
 #pull_request
-
   workflow_dispatch:
 
 jobs:
